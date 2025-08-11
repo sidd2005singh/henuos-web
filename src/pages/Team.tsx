@@ -680,22 +680,6 @@ const Team = () => {
                    'Apply Now'
                  )}
                </motion.button>
-               const handleSubmit = async (e: React.FormEvent) => {
-  e.preventDefault();
-  if (!validateForm()) return;
-  setIsSubmitting(true);
-  setLoadingMessage('Uploading files...');
-  setPhotoProgress(0);
-  setResumeProgress(0);
-  try {
-    // Parallel file uploads with progress
-    const [photoURL, resumeURL] = await Promise.all([
-      formData.photo ? uploadWithProgress(formData.photo, `team_applications/photos/${Date.now()}_${formData.photo.name}`, setPhotoProgress) : Promise.resolve(''),
-      formData.resume ? uploadWithProgress(formData.resume, `team_applications/resumes/${Date.now()}_${formData.resume.name}`, setResumeProgress) : Promise.resolve('')
-    ]);
-    setLoadingMessage('Saving application...');
-    // ... Save to Firestore, then send email, etc.
-
              </div>
           </form>
         </motion.div>
