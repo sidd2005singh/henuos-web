@@ -83,38 +83,7 @@ const Team = () => {
         { icon: () => <span>📸</span>, label: 'Instagram', url: 'https://www.instagram.com/sidd___009_/' },
         { icon: () => <span>🐦</span>, label: 'Twitter', url: 'https://x.com/Sidd935' },
         { icon: () => <span>📘</span>, label: 'Facebook', url: 'https://www.facebook.com/profile.php?id=100089825111015' }
-      ]
-    },
-    {
-      name: 'Rahul',
-      title: 'Co-Founder of Henu',
-      photo: '/rahul.jpeg',
-      bio: [
-        "👋 Hi, I'm Rahul",
-        "Co-Founder of Henu | AI & Voice Recognition | Source Development | Developer | UI/UX Enthusiast",
-        "",
-        "I'm passionate about turning bold ideas into powerful digital experiences. 🚀",
-        "",
-        "From crafting beautiful, interactive UIs to building scalable full-stack solutions, I thrive at the crossroads of design, development, and innovation — turning complex problems into elegant solutions.",
-        "",
-        "🔐 With strong expertise in Flutter app development, cybersecurity practices, DevOps, and cloud infrastructure, I bridge the gap between seamless user experiences and rock-solid backend systems that deliver performance, security, and reliability.",
-        "",
-        "With expertise in Flutter, DevOps, cybersecurity, and scalable backend systems, I bridge seamless UX with solid architecture.",
-        "",
-        "**Achievements**:",
-        "- 50+ real-world apps built",
-        "- Contributor to multiple open-source projects",
-        "- Special interest in AI, automation, and full-stack systems",
-        "",
-        "💬 \"I don't just build software — I craft solutions that inspire, scale, and create impact.\""
-      ],
-      links: [
-        { icon: () => <span>💼</span>, label: 'LinkedIn', url: 'https://www.linkedin.com/in/rahul-sain-88a963288/' },
-        { icon: () => <span>🐱</span>, label: 'GitHub', url: 'https://github.com/RahulRakhi' },
-        { icon: () => <span>🌐</span>, label: 'Portfolio', url: 'https://myportpholiyo.netlify.app/' }
-      ]
-    }
-  ];
+      ];
 
   const handleInputChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
     const { name, value } = e.target;
