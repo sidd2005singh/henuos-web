@@ -83,7 +83,7 @@ const DownloadPage = () => {
   const downloadMirrors = [
     {
       name: 'Google Drive (Primary)',
-      url: 'https://drive.google.com/uc?export=download&id=1_qA5yiDP0l0nYQRA6qlPxBuAMD7rl0rL',
+      url: 'SORRY WE ARE NOT AVALIBLE',
       location: 'Google Drive',
       speed: 'Fast',
       recommended: true
