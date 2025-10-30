@@ -44,7 +44,7 @@ const Community = () => {
       name: 'Discord',
       description: 'Real-time chat and community support',
       icon: <MessageCircle className="w-8 h-8" />,
-      url: 'https://discord.gg/henu-os',
+      url: 'https://discord.gg/MEZpWcWE',
       color: 'from-indigo-600 to-purple-600',
       members: '8K+ Members'
     },
@@ -52,7 +52,7 @@ const Community = () => {
       name: 'Telegram',
       description: 'News, updates, and discussions',
       icon: <Send className="w-8 h-8" />,
-      url: 'https://t.me/henu_os',
+      url: 'https://t.me/+VjtCzFe7ooM5Y2Jl',
       color: 'from-blue-600 to-cyan-600',
       members: '3K+ Subscribers'
     },
@@ -60,7 +60,7 @@ const Community = () => {
       name: 'Email',
       description: 'Direct contact for important matters',
       icon: <Mail className="w-8 h-8" />,
-      url: 'mailto:contact@henu-os.org',
+      url: 'mailto:contact@henuosr@gmail.com',
       color: 'from-orange-600 to-red-600',
       members: 'Official Support'
     }
