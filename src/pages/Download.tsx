@@ -49,7 +49,7 @@ const DownloadPage = () => {
 
   // Handle download with authentication and limits
   const handleDownload = async () => {
-    const url = 'https://drive.google.com/file/d/1_qA5yiDP0l0nYQRA6qlPxBuAMD7rl0rL/view?usp=sharing';
+    const url = 'SORRY WE ARE NOT AVALIBLE NOW';
     if (!user) {
       setShowLogin(true);
       return;
